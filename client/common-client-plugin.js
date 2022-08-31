@@ -5,7 +5,7 @@ function register ({ peertubeHelpers }) {
         return
       }
       const baseStaticUrl = peertubeHelpers.getBaseStaticRoute()
-      const imageUrl = baseStaticUrl + '/images/BitTube-logo.svg';
+      const imageUrl = baseStaticUrl + '/images/ramicro-logo.png';
       const faviconUrl = baseStaticUrl + '/images/favicon.png';
 
       // Check if it's standard logo saved on static directory
