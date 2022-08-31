@@ -4,5 +4,6 @@
 #custom-css .icon.icon-logo{
     width: 145px;
     height: 30px;
-    margin-bottom: 7px;
+    margin-bottom: 3px;
+    background-size: contain;
 }
