@@ -22,9 +22,14 @@
   "clientScripts": [
     {
       "script": "client/common-client-plugin.js",
-      "scopes": [ "common" ]
+      "scopes": [
+        "common"
+      ]
     }
   ],
-  "translations": {
+  "translations": {},
+  "dependencies": {
+    "build": "^0.1.4",
+    "run": "^1.4.0"
   }
 }
