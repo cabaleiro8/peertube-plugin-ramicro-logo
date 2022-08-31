@@ -7,3 +7,7 @@
     margin-bottom: 3px;
     background-size: contain;
 }
+
+#custom-css .peertube-title .instance-name{
+    font-weight: 500;
+}
