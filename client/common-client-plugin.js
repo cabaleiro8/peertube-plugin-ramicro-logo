@@ -25,7 +25,7 @@ function register ({ peertubeHelpers }) {
       const sheet = style.sheet
       let rule = "#custom-css .icon.icon-logo { "
       rule+= " display: inline-block; margin-right: 5px; " // BitTube standard CSS, can be overwritten by additional css
-      rule+= " background: url('"+s['icon_url']+"') no-repeat; background-size: cover; "
+      rule+= " background: url('"+s['icon_url']+"') no-repeat; background-size: contain; "
       if ( s['icon_width'] ) {
         rule+= " width: "+s['icon_width']+"; "
       }
