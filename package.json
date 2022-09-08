@@ -1,6 +1,6 @@
 {
-  "name": "peertube-plugin-logo-ramicro",
-  "version": "1.0.0",
+  "name": "peertube-plugin-ramicro-logo",
+  "version": "1.0.1",
   "description": "PeerTube logo && favicon plugin for mediathek.ra-micro.de",
   "engine": {
     "peertube": ">=1.4.0-rc1"
@@ -9,9 +9,9 @@
     "peertube",
     "plugin"
   ],
-  "homepage": "https://github.com/ipbc-dev/peertube-plugin-logo-ramicro",
+  "homepage": "https://github.com/ipbc-dev/peertube-plugin-ramicro-logo",
   "author": "BitTube",
-  "bugs": "https://github.com/ipbc-dev/peertube-plugin-logo-ramicro/issues",
+  "bugs": "https://github.com/ipbc-dev/peertube-plugin-ramicro-logo/issues",
   "library": "./main.js",
   "staticDirs": {
     "images": "public/images"
